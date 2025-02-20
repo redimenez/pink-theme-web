@@ -1,0 +1,215 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0e3;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff5f5f;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe3e3;
+    padding: 50px 0;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    padding: 12px 30px;
+    background-color: #ff5f5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.hero .hero-image img {
+    width: 300px;
+}
+
+/* Popular Choices Section */
+.popular-choice {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.popular-choice h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.popular-choice p {
+    font-size: 18px;
+    color: #666;
+}
+
+.menu-buttons {
+    margin: 20px 0;
+}
+
+.menu-buttons .btn {
+    padding: 12px 30px;
+    background-color: #ff5f5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.donuts-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.donut-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donut-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.donut-item p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.donut-item span {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f5e3c7;
+    padding: 50px 0;
+}
+
+.footer-content h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer ul li a:hover {
+    color: #ff5f5f;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+
+
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 50px; /* Rounded corners */
+    border: none;
+    outline: none;
+    background-color: rgb(231, 192, 218);
+    box-shadow: 0px 2px 5px rgba(184, 114, 114, 0.2); /* Subtle shadow */
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-30%);
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .search-bar button img {
+    width: 16px;
+    height: 16px;
+  }
